@@ -1,0 +1,214 @@
+.header{
+    height:57px;
+    display:flex;
+    flex-direction:row;
+    justify-content:space-between; 
+
+    position:fixed;
+    top:0;
+    left:0;
+    right:0;
+    background-color:white;
+    border-bottom-width:1px;
+    border-bottom-style:solid;
+    border-bottom-color:rgb(228,228,228) ;
+    z-index:1000;
+}
+.left-section{
+    display:flex;
+    align-items:center;
+}
+
+.middle-section{
+    flex:1;
+    margin-left :69px;
+    margin-right:33px;
+    max-width:501px;
+    display:flex;
+    align-items:center;
+
+}
+.search-bar{
+    flex:1;
+    height:33px;
+    font-size:16px;
+    border-width:1px;
+    border-style:solid;
+    border-color:rgb(196,196,196);
+    box-shadow:inset 1px 2px 3px rgba(0,0,0,0.05);
+    width:0;
+}
+.search-bar::placeholder{
+    font-family:Roboto,Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    padding-left:9px;
+}
+.right-section{
+    display:flex;
+    align-items:center;
+    width: 150px;
+    justify-content:space-between;
+    margin-right:30px;
+    flex-shrink:0;
+}
+.hamburger-menu{
+         height:24px;
+         margin-left: 24px;
+         margin-right:24px;
+}
+.youtube-logo{
+        height:20px;
+}
+.search-button{
+    height:36px;
+    width: 66px;
+    background-color: rgb(240,240,240);
+    border-width:1px;
+    border-color: rgb(192,192,192);
+    margin-left:-1px;
+    margin-right:9px;
+
+    position: relative;
+}
+.search-button .tool-tip{
+    position: absolute;
+    background-color:gray;
+    color:white;
+    padding-top:4px;
+    padding-bottom:4px;
+    padding-left:8px;
+    padding-right:8px;
+    border-radius:2px;
+    font-size:12px;
+    bottom:-30px;
+    right:0;
+    opacity:0;
+    pointer-events:none;
+}
+.search-button:hover .tool-tip{
+    opacity:1;
+}
+.voice-search-button{
+    position: relative;
+    height:36px;
+    width: 36px;
+    border-radius:18px;
+    border:none;
+    background-color:rgb(245,245,245);
+}
+.voice-search-icon{
+    height:20px;
+    margin-top:4px;
+}
+.voice-search-button .tool-tip{
+    position: absolute;
+    background-color:gray;
+    color:white;
+    padding-top:4px;
+    padding-bottom:4px;
+    padding-left:8px;
+    padding-right:8px;
+    border-radius:2px;
+    font-size:12px;
+    bottom:-39px;
+    right: -30px;;
+    opacity:0;
+    pointer-events:none;
+}
+.voice-search-button:hover .tool-tip{
+    opacity:1;
+}
+.search-icon{
+    height:26px;
+    margin: 4px;
+    padding-bottom:9px;
+}
+.upload-icon{
+    height:24px;
+}
+.upload-icon-cont{
+    position: relative;
+}
+.upload-icon-cont .tool-tip{
+    position: absolute;
+    color:white;
+    background-color: gray;
+    padding:2px 6px 2px 6px;
+    border-radius:4px;
+    bottom:-26px;
+    font-family:Roboto,Arial, Helvetica, sans-serif;
+    font-size:14px;
+    font-weight:500;
+    opacity:0;
+    pointer-events:none;
+}
+.upload-icon-cont:hover .tool-tip{
+    opacity:1;
+}
+.youtube-apps-icon{
+    height:24px;
+}
+.yt-apps{
+    position: relative;
+}
+.yt-apps .tool-tip{
+    position: absolute;
+    color:white;
+    background-color: gray;
+    padding:2px 6px 2px 6px;
+    border-radius:4px;
+    bottom:-39px;
+    font-family:Roboto,Arial, Helvetica, sans-serif;
+    font-size:14px;
+    font-weight:500;
+    opacity:0;
+    pointer-events:none;
+}
+.yt-apps:hover .tool-tip{
+    opacity:1;
+}
+.notification-icon{
+    height:24px;
+}
+.current-user-pic{
+    height:30px;
+    border-radius:15px;
+}
+.notification-icon-conat{
+    position: relative;
+   
+}
+.notification-count{
+    position: absolute;
+    background-color:rgb(200,0,0);
+    color:white;
+    top:-2px;
+    right:-6px;
+    font-family:Roboto,Arial, Helvetica, sans-serif;
+    font-size:11px;
+    border-radius:10px;
+
+    padding-left: 6px;
+    padding-right: 6px;
+    padding-top:2px;
+    padding-bottom:2px;
+}
+.notification-icon-conat .tool-tip{
+    position: absolute;
+}
+.notification-icon-conat .tool-tip{
+    position: absolute;
+    color:white;
+    background-color: gray;
+    padding:3px 6px 3px 6px;
+    border-radius:4px;
+    bottom:-24px;
+    font-family:Roboto,Arial, Helvetica, sans-serif;
+    font-size:14px;
+    font-weight:500;
+    opacity:0;
+    pointer-events:none;
+}
+.notification-icon-conat:hover .tool-tip{
+    opacity:1;
+}

@@ -1,0 +1,58 @@
+.side-bar{
+    position:fixed;
+    background-color:white;
+    top:57px;
+    bottom:0px;
+    left:0px;
+    right: 910px;
+    width:70px;
+    border-right-width:1px;
+    border-right-style:solid;
+    border-right-color:rgb(228,228,228);
+    z-index:100;
+    padding-top:6px;
+}
+.side-bar-link{
+
+    height:70px;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    flex:1;
+    flex-direction: column;
+    cursor: pointer;
+}
+.side-bar-link:hover{
+    background-color:rgb(235,235,235);
+    
+}
+.home-logo{
+    height:24px;
+    margin-bottom: 5px;
+    margin-top: 7px;
+}
+.explorer{
+    height:24px;
+    margin-bottom: 5px;
+}
+.sub{
+    height:24px;
+    margin-bottom: 5px;
+}
+.originals{
+    height:24px;
+    margin-bottom: 5px;
+}
+.yt-music{
+    height:24px;
+    margin-bottom: 5px;
+}
+.library{
+    height:24px;
+    margin-bottom: 5px;
+}
+.side-bar div{
+    font-family: Roboto,Arial, Helvetica, sans-serif;
+    font-size:10px;
+    font-weight: 300;
+}
